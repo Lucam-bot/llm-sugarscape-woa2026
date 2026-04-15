@@ -1,0 +1,10 @@
+metric,value
+total_steps,200
+agents_initial,50
+agents_surviving,5
+total_combats,43
+final_map_sugar,1351
+avg_final_sugar,180.18
+avg_final_age,151.2
+max_sugar,270.7
+max_age,200

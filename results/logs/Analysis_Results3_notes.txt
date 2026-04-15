@@ -1,0 +1,45 @@
+  =======================================================
+  STATISTICS
+  =======================================================
+
+  === VISION-RANGE alpha gap (all agents within vision) ===
+  Pearson correlations (n=91,991):
+        Action         r     p-value    Sig
+          Move  -0.0258    0.000000    YES
+          Stay  +0.0181    0.000000    YES
+        Attack  +0.0192    0.000000    YES
+     Reproduce  -0.0009    0.788174     no
+
+  Mann-Whitney U (vision gap: attackers vs others):
+    Attacker mean:     0.6349
+    Non-attacker mean: 0.6079
+    p-value: 0.000000  SIGNIFICANT
+
+  === ADJACENT alpha gap (only agents at dist <= 1) ===
+  Pearson correlations (n=49,790):
+        Action         r     p-value    Sig
+          Move  -0.0188    0.000026    YES
+          Stay  +0.0082    0.067534     no
+        Attack  +0.0236    0.000000    YES
+     Reproduce  -0.0057    0.205867     no
+
+  Mann-Whitney U (adjacent gap: attackers vs others):
+    Attacker mean:     0.6453
+    Non-attacker mean: 0.6063
+    p-value: 0.000096  SIGNIFICANT
+
+  === OWN ALPHA ===
+  Pearson correlations (n=225,827):
+        Action    r(alpha)    r(|alpha|)
+          Move  +0.0053*    -0.0724*
+          Stay  -0.0107*    +0.0674*
+        Attack  +0.0104*    +0.0172*
+     Reproduce  +0.0059*    -0.0012 
+  * = p < 0.05
+
+  === REFERENCE ===
+  E[|a-b|] for Uniform(-1,1) = 2/3 = 0.667
+  Vision gap — all decisions: 0.6097
+  Vision gap — attackers:     0.6349
+  Adjacent gap — all decisions: 0.6093
+  Adjacent gap — attackers:     0.6453

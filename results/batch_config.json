@@ -1,0 +1,30 @@
+{
+  "grid_sizes": [
+    20,
+    30,
+    50,
+    70
+  ],
+  "avg_sugar_values": [
+    0.5,
+    1.0,
+    1.5,
+    2.0,
+    2.5,
+    3.0
+  ],
+  "n_repeats": 10,
+  "base_seed": 42,
+  "num_agents": 50,
+  "max_steps": 200,
+  "vision_range": [
+    1,
+    6
+  ],
+  "metabolism_range": [
+    0.5,
+    2.0
+  ],
+  "initial_sugar": 15,
+  "enable_houses": false
+}

@@ -1,0 +1,13 @@
+parameter,value
+seed,45
+grid_size,50
+avg_sugar_target,0.5
+S_target,1250
+actual_total_sugar,1272
+actual_avg_sugar,0.5088
+num_agents,50
+max_steps,200
+global_vision,3
+global_metabolism,1.1265367845598036
+initial_sugar,15
+repeat_index,3
