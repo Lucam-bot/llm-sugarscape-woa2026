@@ -33,8 +33,7 @@ Key findings:
 ├── flowchart.png                      # Simulation flowchart figure
 │
 ├── notebooks/
-│   ├── SugLLM.ipynb                   # Main simulation runner (batch experiments)
-│   └── GraphSugLLM.ipynb              # Overview plots from batch results
+│   └──SugLLM.ipynb                   # Main simulation runner (batch experiments)
 │
 ├── analysis_scripts/
 │   ├── alpha_gap_analysis.py          # Alpha gap distribution & attacker vs non-attacker
