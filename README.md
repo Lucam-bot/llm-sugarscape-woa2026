@@ -31,6 +31,7 @@ Key findings:
 ├── generate_flowchart.py              # Generates flowchart figure (Fig. 1)
 ├── generate_initial_states.py         # Generates static_comparison*.pdf/png (Fig. 2)
 ├── flowchart.png                      # Simulation flowchart figure
+├── system_prompt.pdf
 │
 ├── notebooks/
 │   └──SugLLM.ipynb                   # Main simulation runner (batch experiments)
